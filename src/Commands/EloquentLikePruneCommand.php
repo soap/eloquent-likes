@@ -4,7 +4,7 @@ namespace Soap\EloquentLike\Commands;
 
 use Illuminate\Console\Command;
 
-class EloquentLikeCommand extends Command
+class EloquentLikePruneCommand extends Command
 {
     public $signature = 'eloquent-likes:prune';
 
