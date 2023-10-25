@@ -2,9 +2,9 @@
 
 namespace Soap\EloquentLike;
 
+use Soap\EloquentLike\Commands\EloquentLikePruneCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Soap\EloquentLike\Commands\EloquentLikePruneCommand;
 
 class EloquentLikeServiceProvider extends PackageServiceProvider
 {
