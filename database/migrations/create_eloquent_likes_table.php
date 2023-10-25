@@ -8,11 +8,10 @@ return new class extends Migration
 {
     public function up()
     {
-        Schema::create('migration_table_name_table', function (Blueprint $table) {
+        Schema::create('eloquent_likes_table', function (Blueprint $table) {
             $table->id();
-
-            // add fields
-
+            $table->morphs('likeable'); // be liked
+            $table->morphs('liker'); // like
             $table->timestamps();
         });
     }
